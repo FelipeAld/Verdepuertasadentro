@@ -1,0 +1,65 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+header{
+    background: #2e7d32;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav{
+    background: #81c784;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a{
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+section{
+    padding: 20px;
+}
+
+.imagen-principal{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+article{
+    background: #f1f8e9;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+footer{
+    background: #2e7d32;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+/* Estilos responsive sugeridos por IA */
+@media (max-width: 768px){
+
+    nav a{
+        display: block;
+        margin: 10px 0;
+    }
+
+}
